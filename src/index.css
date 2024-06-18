@@ -1,0 +1,9 @@
+@layer reset, base, tokens, recipes, utilities;
+
+@font-face {
+    font-family: 'BelweStd-Bold';
+    src: local('BelweStd-Bold'), url('./assets/BelweStd-Bold.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}

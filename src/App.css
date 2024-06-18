@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.popUpHide {
+  transition: opacity 500ms;
+  pointer-events: none;
+  opacity: 0;
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  top: 45%;
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 75%; /* Need a specific value to work */
+}
+
+.popUpShow {
+  transition: opacity 500ms;
+  pointer-events: none;
+  opacity: initial;
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  top: 45%;
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 75%; /* Need a specific value to work */
+}
